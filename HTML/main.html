@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/CSS/estilo.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td><img src="/imagenes/prestapp logo.png" /></td>
+      </tr>
+    </table>
+
+    <h3>Empezá a prestar sin miedos!</h3>
+    <form>
+      <table>
+        <tr>
+          <td><h4>¿Qué deseo prestar?</h4></td>
+          <td><input type="text" id="objeto" placeholder="Objeto" /></td>
+        </tr>
+        <tr>
+          <td><h4>¿Hasta qué fecha deseo prestar?</h4></td>
+          <td>
+            <input type="date" id="fecha" placeholder="Fecha del Préstamo" />
+          </td>
+        </tr>
+        <tr>
+          <td><h4>¿A quién realizaré el préstamo?</h4></td>
+          <td><input type="text" id="persona" placeholder="Persona" /></td>
+        </tr>
+        <tr>
+          <td><h4>Número de contacto</h4></td>
+          <td><input type="text" id="celular" placeholder="Celular" /></td>
+        </tr>
+      </table>
+    </form>
+
+    <table id="tablaDatos"></table>
+    <button id="guardar" onclick="guardarPrestamo()">GUARDAR</button>
+
+    <br />
+
+    <button id="prestamosVigentesButton" onclick="mostrarPrestamosVigentes()">
+      P. Vigentes
+    </button>
+    <div id="prestamosVigentesContainer"></div>
+
+    <br />
+
+    <button id="cargarContactos" onclick="toggleContactos()">
+      Cargar Contactos
+    </button>
+    <table id="tablaContactos"></table>
+
+    <br />
+
+    <button id="cerrarSesion" onclick="cerrarSesion()">Cerrar Sesion</button>
+
+    <script src="/JS/main.js"></script>
+    <script src="/JS/main2.js"></script>
+    <script src="/JS/main3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
+  </body>
+</html>

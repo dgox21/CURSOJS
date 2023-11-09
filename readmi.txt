@@ -1,0 +1,55 @@
+ALUMNO: PEREYRA CARLOS GERMÁN
+CIUDAD: ELDORADO MISIONES
+E-MAIL: bioploter@gmail.com
+
+JAVASCRIPT - CODERHOUSE
+PROFESOR: SAUL KRUJOSKI (EL MEJOR!).
+
+Esta página web proporciona un formulario de registro de usuario básico con campos para el correo electrónico,
+nombre y número de celular.
+
+El desafio fue crear una página web para aplicar conocimientos y profundizar practicas sobre lo aprendido en el
+curso.
+
+"PrestApp"
+"Empezá a prestar sin miedos!".
+
+Primero desarrolle el registro de usuario. 
+Cree un formulario con los siguientes campos:
+Email.
+Nombre
+Celular
+
+Un contenedor de mensajes de validación de la biblioteca SweetAlert2 para mostrar notificaciones interactivas
+al usuario.
+
+Un botón con el id guardarButton.
+
+Se incluye SweetAlert2 para mostrar mensajes interactivos.
+Se incluye un script de JavaScript (index.js) que manejará la funcionalidad del botón "Guardar".
+En resumen, . Cuando se hace clic en el botón "Guardar", se activa validará los campos del formulario
+y mostrará mensajes de notificación usando SweetAlert2.
+
+Luego desarrolle en otro html, main.html - Un formulario con los siguientes campos:
+¿Qué deseo prestar? ¿Hasta qué fecha deseo prestar? ¿A quién realizaré el préstamo? y un Número de contacto
+Botón "GUARDAR" (guardar) que activará la función guardarPrestamo()
+Botón "P. Vigentes" (prestamosVigentesButton) que activará la función mostrarPrestamosVigentes()
+Botón "Cargar Contactos" (cargarContactos) que activará la función AJAX FETCH- Para traer datos de una API-
+Botón "Cerrar Sesión" (cerrarSesion) y eliminar todos los datos almacenados en el LocalStorage
+Se incluyen tres scripts (main.js, main2.js, y main3.js) que contienen la lógica y funcionalidades de la aplicación.
+
+En resumen, esta página web proporciona una interfaz para registrar préstamos, ver préstamos vigentes, cargar contactos
+y cerrar sesión en la aplicación "PrestApp".
+
+Para realizar el TP. se necesito declarar variables, datos incluyen cadenas de textos booleanos, objetos y arreglos,
+operadores, estructuras de control, condicionales.
+Funciones, parámetros y argumentos en funciones.
+Retorno de valores con return.
+Objetos y Arrays.
+Eventos y DOM Manipulation.
+Manejo de eventos, AJAX y Fetch API.
+LocalStorage.
+JSON.
+Librerias.
+
+Atte. Carlos Germán Pereyra
